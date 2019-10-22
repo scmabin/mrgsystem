@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+<link rel="stylesheet" href="midtern_style.css" type="text/css">
+<style>
+	.input_length{width: 300px;height: 40px;border-color: #075B7F}
+	body{font-size: 15px;color: white;}
+	a{text-decoration: none;color: white;}
+	#div_main {text-align:center;width: 1200px}
+	.align_center{text-align: center;align-items: center;}
+</style>
+</head>
+
+<body>
+<!--header-->
+
+<!--header-->
+<div>
+	<iframe src="header.html" width="1366px" height="70px"  frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+
+
+<!--login page-->
+<div id="div_main" align="center">
+	<h1 class="align_center">Welcome to VMALearner System</h1>
+ <p class="align_center">Sign in with your VMALearne ID.</p>
+ 
+<!--form to collect Login Informations-->
+<div >
+
+<form >     		
+   		<p  >
+			<label>
+				Username:
+				<br>
+				<input type="text" style="width:180px; height:40px;">
+				<select name="emailType" style="height:45px;">
+					<option>@gmail.com</option>
+					<option>@163.com</option>
+					<option>@qq.com</option>
+					<option>@hotmail.com</option>
+					<option>@vma.edu.cn</option>
+				</select>
+			</label>
+			<br>
+			<br>
+			<label>
+				Password:
+				<br>
+				<input type="text" class="input_length">
+			</label>
+   		</p>
+       
+        <p>
+        	<input type="radio" value="remember me">Remember me
+        </p>
+        <p>
+        	<input type="submit" value="Login" class="input_length" style="background-color:#0E75AF;color:white;height:40px;font-size: 20px;">
+        </p>
+        <p >
+          <a href="forget_password.html">Forget Passowrd</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="signin.html"  >Sign Up </a>
+        </p>       
+</form>
+	
+</div>
+ <!--Help notices-->  
+      	
+      	<br>
+      	<br>
+      		<p class="align_center">If you do not have a VMALearner ID</p>
+        	<p style="font-size: 13px;" class="align_center">
+				Start the process of creating a VMALearner ID by starting in 
+				your VMALearner SIS.
+				<br>
+				Contact your administrator if you need the address of your
+				VMALearner SIS. 
+           </p> 
+      	 
+</div>
+
+<!--footer-->
+<div>
+	<iframe src="footer.html" width="1366px" height="120px"  frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+
+</body>
+</html>
